@@ -8,6 +8,8 @@
     text-decoration: none;
 } 
 h1,h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
     font-family: "Montserra",sans-serif;
 }
 table{
@@ -18,6 +20,8 @@ h3{
     animation: 0.5s ease-in-out 0s infinite alternate none running fliker;
 }
 h4,h5{
+    margin-top: 2px;
+    margin-bottom: 1px;
     font-family: "poppins",sans-serif;
     color: rgb(225, 71, 209);
 }
