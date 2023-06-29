@@ -2,6 +2,7 @@
     margin:0px;padding: 0px;
     font-family: "Open Sans",sans-serif;
     color:white;
+    font-weight: 400;
 }
  a{
     color:white;
@@ -15,10 +16,10 @@ table{
     margin-top: 2px;
     margin-bottom:2px ;
 }
-h3{
+.fliker{
     animation: 0.5s ease-in-out 0s infinite alternate none running fliker;
 }
-h4,h5{
+.h4,.h5{
     font-family: "poppins",sans-serif;
     color: rgb(225, 71, 209);
 }
