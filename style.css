@@ -2,12 +2,18 @@
     margin:0px;padding: 0px;
     font-family: "Open Sans",sans-serif;
     color:white;
-    font-weight: 400;
+    font-weight:500;
 }
  a{
     color:white;
     text-decoration: none;
 } 
+ion-icon{
+    color:  rgb(225, 71, 209);
+}
+a:hover{
+    color:rgb(232, 165, 56);
+}
 h1,h3{
    
     font-family: "Montserra",sans-serif;
@@ -23,7 +29,9 @@ table{
     font-family: "poppins",sans-serif;
     color: rgb(225, 71, 209);
 }
-
+.pink{
+    color: rgb(225, 71, 209);
+}
 @keyframes fliker {
     0% {
         opacity: 0.5;
