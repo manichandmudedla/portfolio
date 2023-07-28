@@ -2,7 +2,7 @@
     margin:0px;padding: 0px;
     font-family: "Open Sans",sans-serif;
     color:white;
-    font-weight:500;
+
 }
  a{
     color:white;
@@ -18,12 +18,10 @@ h1,h3{
    
     font-family: "Montserra",sans-serif;
 }
-table{
-    margin-top: 2px;
-    margin-bottom:2px ;
-}
+
 .fliker{
     animation: 0.5s ease-in-out 0s infinite alternate none running fliker;
+    margin-bottom: 25px; margin-top:5px;
 }
 .h4,.h5{
     font-family: "poppins",sans-serif;
@@ -32,6 +30,14 @@ table{
 .pink{
     color: rgb(225, 71, 209);
 }
+.crd{
+    background-color: black;
+    width: 97%;
+    height: auto;
+    padding: 15px;
+    margin-top: 10px; margin-bottom: 10px;
+}
+
 @keyframes fliker {
     0% {
         opacity: 0.5;
