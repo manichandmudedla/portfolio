@@ -1,18 +1,28 @@
 *{
     margin:0px;padding: 0px;
-    font-family: "Open Sans",sans-serif;
+    font-family:sans-serif;
     color:white;
 
 }
- a{
-    color:white;
+a{
+    color:whitesmoke;
     text-decoration: none;
-} 
+}
+p,p>a{
+    color:rgba(245, 245, 245, 0.744);
+}
 ion-icon{
     color:  rgb(225, 71, 209);
 }
-a:hover{
+.btn-org{
+    background-color:rgb(233, 131, 58);
+    color:black;
+}
+td>a,a:hover{
     color:rgb(232, 165, 56);
+}
+.progress-bar{
+    background-color:rgb(233, 131, 58);
 }
 h1,h3{
    
@@ -34,9 +44,13 @@ h1,h3{
     background-color: black;
     width: 97%;
     height: auto;
-    padding: 15px;
+    padding: 18px;
+    border:1px solid rgb(204, 121, 210);
     margin-top: 10px; margin-bottom: 10px;
 }
+/*.crd:hover{
+    border:1px solid rgb(178, 102, 183);
+}*/
 
 @keyframes fliker {
     0% {
