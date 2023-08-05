@@ -12,7 +12,7 @@ p,p>a{
     color:rgba(245, 245, 245, 0.744);
 }
 ion-icon{
-    color:  rgb(225, 71, 209);
+    color:  #FF42F2;
 }
 .btn-org{
     background-color:rgb(233, 131, 58);
@@ -35,10 +35,10 @@ h1,h3{
 }
 .h4,.h5{
     font-family: "poppins",sans-serif;
-    color: rgb(225, 71, 209);
+    color: #FF42F2;
 }
 .pink{
-    color: rgb(225, 71, 209);
+    color: #FF42F2;
 }
 .crd{
     background-color: black;
