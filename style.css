@@ -8,8 +8,9 @@ a{
     color:whitesmoke;
     text-decoration: none;
 }
-p{
+p,p>a{
     color:rgba(245, 245, 245, 0.744);
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 ion-icon{
     color:  #FF42F2;
@@ -25,7 +26,6 @@ td>a,a:hover{
     background-color:rgb(233, 131, 58);
 }
 h1,h3{
-   
     font-family: "Montserra",sans-serif;
 }
 
@@ -40,17 +40,31 @@ h1,h3{
 .pink{
     color: #FF42F2;
 }
+.card{
+    background-color: #121212;
+    margin: 10px;
+}
 .crd{
-    background-color: black;
-    width: 97%;
-    height: auto;
-    padding: 18px;
     border:1px solid rgb(204, 121, 210);
-    margin-top: 10px; margin-bottom: 10px;
+}
+.card-body{
+    padding: 20px;
 }
 /*.crd:hover{
     border:1px solid rgb(178, 102, 183);
 }*/
+.sk-wrap{
+    padding: 20px;
+}
+.sk-wrap img{
+    display: flex;
+    margin: auto;
+}
+.sk-text{
+    margin: 5px auto;
+    font-size: 20px;
+    text-align: center;
+}
 
 @keyframes fliker {
     0% {
